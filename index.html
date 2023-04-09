@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Joyeria</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <H1 class="title-2 oblique"> DISEÑO&JOYAS </H1>
+    </header>
+    <DIV>
+        <h2> by Pepito Perez</h2>
+        <img class="imagen-00" src="assets/estatua2.png" alt="estatua2" width="400px" height="400px">
+        <div class="cuadrado"> JOYERIA DE DISEÑO CONTEMPORANEA</div>
+        <p>El arte del diseño aplicado a cada joya que observas en esta pagina, de la mano del artista Pepito Perez</p>
+    </DIV>
+    <br>
+    <hr>
+    <br>
+    <DIV>
+        <div class="lista-plata"></div>
+        <Table>
+            <tr>
+                <th>
+                    <h2 class="title-tb">Joyeria en Plata</h2>
+                </th>
+
+                <th>
+                    <h2 class="title-tb">Joyeria en oro</h2>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <ul id="plata">
+                        <a href="https://es.tradingview.com/chart/juTvj9o0/">
+                            <li class="plata">Anillos</li>
+                            <img class="imagen-01" src="assets/anillo.png" alt="anillo" width="100px" height="100px">
+                        </a>
+                        <li class="plata">Collares</li>
+                        <img class="imagen-02" src="assets/collar.png" alt="collar" width="100px" height="100px">
+                        <li class="plata">Tobilleras</li>
+                        <img class="imagen-03" src="assets/tobillera.png" alt="tobillera" width="100px" height="100%">
+                    </ul>
+                </td>
+    </div>
+    <div>
+        <td>
+            <ul id="oro">
+                <li class="oro">Anillos</li>
+                <img class="imagen-04" src="assets/anillo-oro.png" alt="anillo-oro" width="100px" height="100px"></a>
+                <li class="oro">Collares</li>
+                <img class="imagen-05" src="assets/collar-oro.png" alt="collar-oro" width="100px" height="100px">
+                <li class="oro">Tobilleras</li>
+                <img class="imagen-063" src="assets/tobillera-oro.png" alt="tobillera-oro" width="100px" height="100%">
+            </ul>
+        </td>
+        </tr>
+    </div>
+    </Table>
+
+    </DIV>
+    <br>
+    <hr>
+    <br>
+    <div>
+        <form action="datos" class="form-1">
+            <h3 class="title-3">Dejanos conocerte y suscribite a nuestro newsletter para recibir actualizaciones sobre
+                nuevos productos,
+                promociones y diseños exclusivos</h3>
+            <h4 class="title-5"><strong>Suscripcion free</strong></h4>
+            <br>
+            <div>
+                <b><label for="name">Nombre</label></b>
+                <input type="text" name="Nombre" id="name" placeholder="Nombre completo">
+                <b><label for="Genero">Genero</label></b>
+                <select>
+                    <option value=""></option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <b><label for="edad">Fecha de nacimiento</label></b>
+                <input type="date" id="edad" placeholder="fecha de nacimiento">
+                <b><label for="telefono">Telefono</label></b>
+                <input type="number" id="telefono" placeholder="+549-351****">
+                <b><label for="correo">Email</label></b>
+                <input type="email" id="correo" placeholder="e.mail">
+                <b> <label for="pass">Contraseña:</label></b>
+                <input type="password" id="pass" placeholder="ingrese su contraseña" required>
+                <button class="button-1" type="submit">ENVIAR</button>
+                <hr>
+            </div>
+
+            <h3 class="title-4">Contanos un poquito mas...</h3>
+            <span>
+                <h4 class="title-5">Oro o Plata?</h4>
+            </span>
+            <div class="opciones-1"><label for="Oro">ORO</label>
+                <input type="radio" name="JOYAS" id="Oro" />
+                <label for="Plata">PLATA</label>
+                <input type="radio" name="JOYAS" id="Plata" />
+                <h4>Que usas mas?</h4>
+                <label for="Anillos">Anillos</label>
+                <input type="radio" name="JOYAS" id="Anillos" />
+                <label for="Collares">Collares</label>
+                <input type="radio" name="JOYAS" id="Collares" />
+                <label for="Aros">Aros</label>
+                <input type="radio" name="JOYAS" id="Aros" />
+
+                <br>
+                <label for="checkbox1">Joyeria Contemporanea</label>
+                <input type="checkbox" id="checkbox1">
+                <label for="checkbox2">Joyeria Contemoporanea</label>
+                <input type="checkbox" id="checkbox2">
+                <b><label for="Comentarios"> Comentarios: </label></b>
+                <textarea name="Comentarios" id="" cols="10" rows="2" placeholder="Comentarios"></textarea>
+                <button class="button-1" type="submit">ENVIAR</button>
+            </div>
+
+            <br>
+            <p class="adherir-1"><label for="checkbox3">Acepto Terminos y Condiciones</label>
+                <input type="checkbox" id="checkbox3">
+                <button class="button-2" type="submit">Ver Termino y Condiciones</button required>
+            </p>
+
+        </form>
+
+    </div>
+</body>
+<footer>
+    <p class="Footer__ThemeAuthor">Los productos y contenidos mostrados en este sitio son propiedad de Ανώνυμος.</p>
+</footer>
+
+</html>
