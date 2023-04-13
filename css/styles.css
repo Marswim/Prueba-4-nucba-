@@ -4,7 +4,10 @@ body {
 }
 
 body {
-    background-image: url("assets/fondo.png");
+    background-image: url("assets/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;     
 }
 
 .title {
@@ -53,3 +56,19 @@ h3 {
 .opciones-1 {text-align: center;}
 .adherir-1 {text-align: right;}
 .Footer__ThemeAuthor {text-align: right;}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle; }
+
+  th {
+    background-color: #4e4e4e;
+    color: white;
+  }
+
+  
