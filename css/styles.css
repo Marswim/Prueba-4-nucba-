@@ -58,7 +58,7 @@ h3 {
 .Footer__ThemeAuthor {text-align: right;}
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 100%; border-top-left-radius: 20px; border-bottom-right-radius: 50px;
   }
 
   td, th {
