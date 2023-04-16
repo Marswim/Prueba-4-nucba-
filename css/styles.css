@@ -46,12 +46,11 @@ body {
     font-style: italic;
 }
 
-.oblique {
-    font-style: italic;
-}
-
 .title-2 {
     color: rgb(255, 255, 255);
+    font-size: xx-large;
+    padding-left: 5px;
+    font-weight: bolder;
 }
 
 .cuadrado {
@@ -63,9 +62,9 @@ body {
 }
 
 li {
-    color: chocolate;
-    font-style: oblique;
-    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: xx-large;
 }
 
 #li {
@@ -84,7 +83,8 @@ li {
 
 h3 {
     color: rgb(255, 255, 255);
-    font-style: italic;
+    padding-left: 5px;
+
 }
 
 .title-5 {
@@ -98,12 +98,19 @@ h3 {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
+    border-radius: 10px; 
+    border-bottom-right-radius: 140px;
+    
 }
 
 .button-1 {
     background-color: rgb(192, 192, 192);
+    width: 200px; height: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
     border-radius: 20px;
+    text-align: center;
+    
 }
 
 .opciones-1 {
@@ -145,19 +152,31 @@ th {
 }
 
 .poesia {
-    background-color: #919191; color: #000000; text-align: left;
+    background-color: #919191;
+    color: #000000;
+    text-align: left;
+    text-emphasis-position: initial;
     width: 300px;
     height: 100%;
-    backface-visibility: calc(50%); 
+    backface-visibility: calc(50%);
     border-top-left-radius: 20px;
     border-bottom-right-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.box1 {color: #ffffff;
+.box1 {
+    color: #ffffff;
     background-color: #ffffff;
     width: 50px;
     height: 100%;
     opacity: initial;
     border-top-left-radius: 20px;
-    border-bottom-right-radius: 50px
+    border-bottom-right-radius: 80px
 }
+
+.formulario {
+    padding-left: 5px;
+    }
