@@ -7,6 +7,11 @@ nav {
   padding-top: 10px;
   text-align: center;
   width: 100vw;
+  border-radius: 50% 0 50% 50% / 0 50% 50% 50%;
+}
+.principal {
+  background-color: #4e4e4e;
+  width: 100vw;
 }
 
 nav ul {
@@ -79,7 +84,7 @@ li {
 
 .title-tb {
   color: antiquewhite;
-  font-size: xx-large;
+  font-size: 50px;
 }
 
 h3 {
@@ -130,9 +135,16 @@ table {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 50px;
 }
+.direccion .principal {
+  width: 100vw;
+  height: 50em;
+  border-radius: 50% 0 50% 50% / 0 50% 50% 50%;
+  text-align: center;
+  background-color: #333;
+  font-size: 10rem;
+}
 
-td,
-th {
+td th {
   padding: 8px;
   text-align: center;
   vertical-align: middle;
@@ -198,4 +210,38 @@ th {
 
 .pepito {
   padding-bottom: 10px;
+}
+
+.colecciones {
+  background-color: #816969;
+  padding: 50px;
+  border-radius: 50% 0 50% 50% / 0 50% 50% 50%;
+  <!-transform: skewX(-0deg) rotate(-0deg);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+}
+
+.colecciones:hover {
+  <!-transform: skewX(-20deg) rotate(-20deg) scale(1.1);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-out;
+}
+
+.colecciones h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+ul {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.ingreso {
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  opacity: initial;
+  font-size: xx-large;
 }
