@@ -1,5 +1,5 @@
 nav {
-  background-color: #333;
+  background-color: rgba(80, 80, 80, 0.9);
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -8,6 +8,7 @@ nav {
   text-align: center;
   width: 100vw;
   border-radius: 50% 0 50% 50% / 0 50% 50% 50%;
+  flex-basis: 100%;
 }
 .principal {
   background-color: #4e4e4e;
@@ -153,29 +154,34 @@ td th {
 }
 
 th {
-  background-color: #4e4e4e;
   color: white;
   font-size: x-large;
 }
 
 .poesia {
-  background-color: #919191;
+  background-color: rgba(79, 82, 80, 0.705);
   text-align: left;
   text-emphasis-position: initial;
   width: 25vw;
   height: 100%;
   backface-visibility: calc(50%);
   border-top-left-radius: 20px;
-  border-bottom-right-radius: 100px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 40%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 2em;
 }
 .descriptivo {
-  font-size: 30px;
+  font-size: 3rem;
   color: #ffffff;
+  font-family: "indie Flower";
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .box1 {
@@ -214,20 +220,13 @@ th {
 }
 
 .colecciones {
-  background-color: #816969;
+  background-color: rgba(112, 84, 84, 0.658);
   padding: 50px;
   border-radius: 50% 0 50% 50% / 0 50% 50% 50%;
-  <!-transform: skewX(-0deg) rotate(-0deg);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   text-align: center;
   font-size: 2em;
   color: #333;
-}
-
-.colecciones:hover {
-  <!-transform: skewX(-20deg) rotate(-20deg) scale(1.1);
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
-  transition: all 0.5s ease-out;
 }
 
 .colecciones h1 {
@@ -248,4 +247,22 @@ ul {
 }
 .lista {
   border-radius: 50% 0 50% 50% / 0 50% 50% 50%;
+}
+.principal {
+  background-image: url("fondo-02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.principal::before {
+  content: "relative";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("fondo-02.png");
+  opacity: 0.5;
+  z-index: -1;
 }
