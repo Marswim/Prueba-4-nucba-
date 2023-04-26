@@ -1,14 +1,17 @@
 nav {
+  display: flex;
   background-color: rgba(80, 80, 80, 0.9);
   color: #fff;
-  display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 20px;
   padding: 20px;
   padding-top: 10px;
+  align-items: center;
   text-align: center;
   width: 100vw;
-  border-radius: 50% 0 50% 50% / 0 50% 50% 50%;
   flex-basis: 100%;
+  border-radius: 30% / 0 0 90% 0;
+  background-clip: border-box;
 }
 .principal {
   background-color: #4e4e4e;
@@ -65,11 +68,14 @@ body {
 }
 
 .cuadrado {
+  display: flex;
   width: 100%;
-  height: 100%;
-  color: rgb(180, 180, 180);
-  background-color: #333;
+  height: 120px;
+  color: rgb(255, 255, 255);
+  background-color: #333333c4;
   font-size: 2rem;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 li {
@@ -260,7 +266,7 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-image: url("fondo-02.png");
   opacity: 0.5;
